@@ -5,14 +5,9 @@
 	<key>files</key>
 	<dict>
 		<key>Resources/Base.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			W9GagX/htBlSSIBBYqySVwsKlnI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
+		<data>
+		W9GagX/htBlSSIBBYqySVwsKlnI=
+		</data>
 		<key>Resources/bitcoin.icns</key>
 		<data>
 		vWhcg0Nwi7oMc5/DK/xIrfEifh8=
@@ -70,8 +65,6 @@
 			<data>
 			xoVoUIUf1x3HXRw/l5SVjWy4Om9gnFP/LYPlY3+cpyg=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Resources/bitcoin.icns</key>
 		<dict>
@@ -213,6 +206,11 @@
 			<key>weight</key>
 			<real>1100</real>
 		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
 		<key>^version.plist$</key>
 		<true/>
 	</dict>
@@ -271,6 +269,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>
