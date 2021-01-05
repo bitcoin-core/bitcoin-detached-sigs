@@ -364,24 +364,24 @@
 	<dict>
 		<key>^Resources/</key>
 		<true/>
-		<key>^Resources/.*\.lproj/</key>
+		<key>^Resources/.*\.lproj</key>
 		<dict>
 			<key>optional</key>
 			<true/>
 			<key>weight</key>
-			<real>1000</real>
+			<integer>1000</integer>
 		</dict>
 		<key>^Resources/.*\.lproj/locversion.plist$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
-			<real>1100</real>
+			<integer>1100</integer>
 		</dict>
 		<key>^Resources/Base\.lproj/</key>
 		<dict>
 			<key>weight</key>
-			<real>1010</real>
+			<integer>1010</integer>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -391,21 +391,21 @@
 		<key>.*\.dSYM($|/)</key>
 		<dict>
 			<key>weight</key>
-			<real>11</real>
+			<integer>11</integer>
 		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
-			<real>2000</real>
+			<integer>2000</integer>
 		</dict>
 		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
 		<dict>
 			<key>nested</key>
 			<true/>
 			<key>weight</key>
-			<real>10</real>
+			<integer>10</integer>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -414,55 +414,55 @@
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
-			<real>20</real>
+			<integer>20</integer>
 		</dict>
 		<key>^PkgInfo$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
-			<real>20</real>
+			<integer>20</integer>
 		</dict>
 		<key>^Resources/</key>
 		<dict>
 			<key>weight</key>
-			<real>20</real>
+			<integer>20</integer>
 		</dict>
-		<key>^Resources/.*\.lproj/</key>
+		<key>^Resources/.*\.lproj/&lt;</key>
 		<dict>
 			<key>optional</key>
 			<true/>
 			<key>weight</key>
-			<real>1000</real>
+			<integer>1000</integer>
 		</dict>
 		<key>^Resources/.*\.lproj/locversion.plist$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
-			<real>1100</real>
+			<integer>1100</integer>
 		</dict>
 		<key>^Resources/Base\.lproj/</key>
 		<dict>
 			<key>weight</key>
-			<real>1010</real>
+			<integer>1010</integer>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>
 			<key>nested</key>
 			<true/>
 			<key>weight</key>
-			<real>10</real>
+			<integer>10</integer>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
 			<key>weight</key>
-			<real>20</real>
+			<integer>20</integer>
 		</dict>
 		<key>^version\.plist$</key>
 		<dict>
 			<key>weight</key>
-			<real>20</real>
+			<integer>20</integer>
 		</dict>
 	</dict>
 </dict>
