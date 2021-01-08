@@ -57,10 +57,6 @@
 	<dict>
 		<key>Resources/Base.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			W9GagX/htBlSSIBBYqySVwsKlnI=
-			</data>
 			<key>hash2</key>
 			<data>
 			xoVoUIUf1x3HXRw/l5SVjWy4Om9gnFP/LYPlY3+cpyg=
@@ -68,10 +64,6 @@
 		</dict>
 		<key>Resources/bitcoin.icns</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vWhcg0Nwi7oMc5/DK/xIrfEifh8=
-			</data>
 			<key>hash2</key>
 			<data>
 			b9TjlH2holgwmCigDj9mUIXF91ghuxhq8Zb3rb6cqv4=
@@ -79,10 +71,6 @@
 		</dict>
 		<key>Resources/empty.lproj</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-			</data>
 			<key>hash2</key>
 			<data>
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
@@ -90,10 +78,6 @@
 		</dict>
 		<key>Resources/qt.conf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MzKfr4zEj2t4UpjgE81ZSqT1TV4=
-			</data>
 			<key>hash2</key>
 			<data>
 			Na7agYO48mkxYzknVX3LE5KaZJARYVx+U2VCaNA9peE=
@@ -101,10 +85,6 @@
 		</dict>
 		<key>Resources/qt_da.qm</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			69nezwrKGy8U1ktgd7PxK7ZP8mY=
-			</data>
 			<key>hash2</key>
 			<data>
 			UeNjW+b5NPNbyF13hCRcxBFM9YU8nfT9vZvE68YFPvE=
@@ -112,10 +92,6 @@
 		</dict>
 		<key>Resources/qt_de.qm</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KBDc3X5Wv0mK48HsXOiyODjDNBM=
-			</data>
 			<key>hash2</key>
 			<data>
 			VbvVwbKlai5s6S07WbRgwwxWeYzNeATsJ5Clhp8rhQs=
@@ -123,10 +99,6 @@
 		</dict>
 		<key>Resources/qt_es.qm</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bbpLxzaf5AZX8aJ4KkORKaERBaM=
-			</data>
 			<key>hash2</key>
 			<data>
 			LkzCOHSfPJnJ7mgqX8FHgsmnb0Prx3zIaq+dDIWDxwE=
@@ -134,10 +106,6 @@
 		</dict>
 		<key>Resources/qt_hu.qm</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tjY4D5KRwRHLjYhWirNF1Tpi23M=
-			</data>
 			<key>hash2</key>
 			<data>
 			jn3iyLzhg37i+C8I8adJ+aWIYzge5nTi1Ss5/sz9QmI=
@@ -145,10 +113,6 @@
 		</dict>
 		<key>Resources/qt_ru.qm</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			apVOR6CG+CjaFIYn6l+r5GCmNTM=
-			</data>
 			<key>hash2</key>
 			<data>
 			KtrUSjGAqOjVI4EQ4kKLQuM8XSHXGqNqoZTiizgOMMM=
@@ -156,10 +120,6 @@
 		</dict>
 		<key>Resources/qt_uk.qm</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HFP4Vm6dc3bVfiupWY6mvC7uHQA=
-			</data>
 			<key>hash2</key>
 			<data>
 			z8LK2Yu9I+B+jOJ0zxttE/jDLcxYRPBSv5Q6DGslh6Y=
@@ -167,10 +127,6 @@
 		</dict>
 		<key>Resources/qt_zh_CN.qm</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+qTsotH5JX9rhrK5y5PuZ7Is5/g=
-			</data>
 			<key>hash2</key>
 			<data>
 			ERIyJttG01+BB5r7PIjTr+RjZFcHp8Lfsk8oZ/b8FLQ=
@@ -178,10 +134,6 @@
 		</dict>
 		<key>Resources/qt_zh_TW.qm</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WgI7XzEbz4TvzQ2//Tebo/KPINs=
-			</data>
 			<key>hash2</key>
 			<data>
 			H0p0XurqqgtHFQ0xxyCjminMHviElBGcYSXcYrMovnY=
@@ -192,24 +144,24 @@
 	<dict>
 		<key>^Resources/</key>
 		<true/>
-		<key>^Resources/.*\.lproj/</key>
+		<key>^Resources/.*\.lproj</key>
 		<dict>
 			<key>optional</key>
 			<true/>
 			<key>weight</key>
-			<real>1000</real>
+			<integer>1000</integer>
 		</dict>
 		<key>^Resources/.*\.lproj/locversion.plist$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
-			<real>1100</real>
+			<integer>1100</integer>
 		</dict>
 		<key>^Resources/Base\.lproj/</key>
 		<dict>
 			<key>weight</key>
-			<real>1010</real>
+			<integer>1010</integer>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -219,21 +171,21 @@
 		<key>.*\.dSYM($|/)</key>
 		<dict>
 			<key>weight</key>
-			<real>11</real>
+			<integer>11</integer>
 		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
-			<real>2000</real>
+			<integer>2000</integer>
 		</dict>
 		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
 		<dict>
 			<key>nested</key>
 			<true/>
 			<key>weight</key>
-			<real>10</real>
+			<integer>10</integer>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -242,55 +194,55 @@
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
-			<real>20</real>
+			<integer>20</integer>
 		</dict>
 		<key>^PkgInfo$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
-			<real>20</real>
+			<integer>20</integer>
 		</dict>
 		<key>^Resources/</key>
 		<dict>
 			<key>weight</key>
-			<real>20</real>
+			<integer>20</integer>
 		</dict>
-		<key>^Resources/.*\.lproj/</key>
+		<key>^Resources/.*\.lproj/&lt;</key>
 		<dict>
 			<key>optional</key>
 			<true/>
 			<key>weight</key>
-			<real>1000</real>
+			<integer>1000</integer>
 		</dict>
 		<key>^Resources/.*\.lproj/locversion.plist$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
-			<real>1100</real>
+			<integer>1100</integer>
 		</dict>
 		<key>^Resources/Base\.lproj/</key>
 		<dict>
 			<key>weight</key>
-			<real>1010</real>
+			<integer>1010</integer>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>
 			<key>nested</key>
 			<true/>
 			<key>weight</key>
-			<real>10</real>
+			<integer>10</integer>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
 			<key>weight</key>
-			<real>20</real>
+			<integer>20</integer>
 		</dict>
 		<key>^version\.plist$</key>
 		<dict>
 			<key>weight</key>
-			<real>20</real>
+			<integer>20</integer>
 		</dict>
 	</dict>
 </dict>
